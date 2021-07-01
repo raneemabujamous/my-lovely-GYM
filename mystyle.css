@@ -1,0 +1,43 @@
+h1 {
+  background-color:bisque;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 70px; 
+  text-align: center;
+}
+
+.call {
+  float: right;
+  font-size : 20px;
+
+}
+h2{
+color: gold;
+font-size: 30px;
+}
+a:hover{
+  color: goldenrod;
+  font-weight: bolder;
+}
+img{
+  width: 700px;
+  height: : 700px;
+}
+span {
+  background-color: lightblue
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size :40px;
+}
+
+p {
+  font-size: 30px;
+}
+.hi{
+  display: block;
+}
+.sub{
+  font-size: 30px;
+}
