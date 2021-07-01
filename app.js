@@ -20,7 +20,7 @@ if(gender == 'male'){
       }
 
     }else{
-      var numOfEx = prompt('how many hour do you have to workout ? (please dont bit number >3 )')
+      var numOfEx = prompt('how many hour do you have to workout ? (please dont put number >3 )')
       while(numOfEx>3){
         numOfEx = prompt('how many hour do you have to workout ? (please dont bit number >3 )')
       }
