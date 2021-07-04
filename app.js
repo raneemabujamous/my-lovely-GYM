@@ -4,9 +4,50 @@ while( gender != 'female' && gender !='male'){
   gender= prompt("what is your gender? (male or female)");
 }
 if(gender == 'male'){
-  alert("WE ARE SOORY THIS IS JUST FOR LADY PLEASE TELL YOR MOM,WIFE AND SISTER TO BE MORE SHIN ");
+
+  var  calcIdealWight= confirm("do you want to calculate your ideal wight for free?");
+      if(calcIdealWight == true){
+       var hightMAN =parseInt( prompt('inter your hight to calculate your ideal wight '));
+
+        function calcidealWightMAN(){
+          var idealMAN = 48 +( 1.1*(hightMAN-150))
+          return idealMAN;
+        }
+    
+    alert(" Your ideal wight is "+ calcidealWightMAN() + ' and make sure tell your mom, wife and sister about us to become more shin' );
+
   }else{
-    var wight = prompt('inter your weight (there is tow differnet cases >70 0r <70)');
+      alert("WE ARE SOORY THIS IS JUST FOR LADY PLEASE TELL YOR MOM,WIFE AND SISTER TO BE MORE SHIN ");
+
+  }
+
+  }else{
+    var wight = parseInt(prompt('inter your wight '))
+        var hight =parseInt( prompt('inter your hight to calculate your ideal wight '));
+        function idealWight(){
+          var ideal = 45 +( .9*(hight-150))
+          return ideal;
+        }
+        var ideeal = idealWight();
+        var diff =  wight - ideeal ;
+        if(diff > 0){
+          
+          document.write('<p>'+'you must lose '+ diff +'Kg and this is suitable exersize '+'</p>' + '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIh2E_lbZ6Gnz0uVLgyqj7Lie_czADbwo8Tg&usqp=CAU">')
+        }else{
+          document.write('<p>'+'you must gian '+ diff +'Kg and this is suitable exersize '+'</p>' + '<img src="https://post.healthline.com/wp-content/uploads/2020/06/Female_Squatting_1200x628-facebook-1200x628.jpg">')
+        }
+        function range(){
+          var max = ideeal+2 
+          var min = ideeal-2
+          var final =  'you should try to remain between ' 
+          + max + ' Kg and ' + min + ' Kg'
+          return final 
+        }
+        document.write('<h3>'+'this is your ideal wight '+ ideeal + ' you should try to remain in range of ' + range() +'</h3>')
+        }
+        
+        /*
+    var wight = prompt('inter your  (there is tow differnet cases >70 0r <70)');
 
     if(wight<70){
       var goal = prompt('do you want to make shape to your body or want to lose fat ? please write (shape or lose fat ) ')
@@ -36,3 +77,4 @@ if(gender == 'male'){
     }
   }
 
+*/

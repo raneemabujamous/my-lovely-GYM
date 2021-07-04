@@ -1,31 +1,48 @@
+body{
+margin: 50px;
+border: inset;
+padding:50px;
+background-color: #FCDEC0;
+
+
+}
+
+
 h1 {
-  background-color:bisque;
+  background-color: #E3CDC1;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
   font-style: italic;
   font-size: 70px; 
   text-align: center;
 }
+.r{
+    padding: 10px
 
+}
 .call {
   float: right;
   font-size : 20px;
+  border: ridge;
+  padding-right: 10px
+  
 
 }
 h2{
-color: gold;
+color: #7D5A50;
 font-size: 30px;
 }
 a:hover{
-  color: goldenrod;
+  color: #D99879;
   font-weight: bolder;
 }
 img{
-  width: 700px;
+  width: 800px;
   height: : 700px;
+  
 }
 span {
-  background-color: lightblue
+  background-color: #D99879
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
   font-style: italic;
@@ -34,6 +51,7 @@ span {
 
 p {
   font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .hi{
   display: block;
